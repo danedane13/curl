@@ -1,1 +1,1 @@
-# curl
+#curl https://worldchain-mainnet.g.alchemy.com/v2/itmG42po_mvwBHZsJ4eXB6pbzJZ1bnPO -X POST -H "Content-Type: application/json" -d '{"jsonrpc":"2.0","method":"alchemy_getAssetTransfers","params":[{"fromBlock": "0x0","category": ["external","erc20","erc721"],"fromAddress": "0x994b342dd87fc825f66e51ffa3ef71ad818b6893"}],"id":0}'
